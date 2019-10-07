@@ -12,6 +12,8 @@ body {
     display: grid;
     grid-template-columns: 23% 45% 32%;
     width: 100%;
+    
+    
 }
 
 .cabecalho {
@@ -175,6 +177,7 @@ body {
 .maisProcurados {
     grid-column-start: 3;
     grid-column-end: 4;
+    
 }
 
 .maisProcurados .pes-fixo {
@@ -241,17 +244,24 @@ body {
     font-size: 10px;
     display: flex;
     border-bottom: solid 1px #CCC;
+    text-decoration: none;
+}
+.assuntos2 a{
+    text-decoration: none;
+    color: black;
 }
 
 .assuntos2:hover {
     background-color: rgba(223, 189, 247, 0.627);
 }
 
-.assuntos3 {
+.assuntos3 a{
     padding: 4%;
     font-size: 11px;
     display: flex;
     color: #7E14A0;
+    text-decoration:none;
+    
 }
 
 .assuntos3:hover {
@@ -260,28 +270,55 @@ body {
     border-bottom-right-radius: 12px;
 }
 
-.bseguir {
-    font-weight: bolder;
-    padding: 1% 3%;
-    font-size: 15px;
-    border-color: #7E14A0;
-    color: #7E14A0;
-    border-radius: 25px;
-    float: right;
-    outline: 0;
-}
 
-.bseguir:hover {
-    background-color: rgba(223, 189, 247, 0.627);
-}
 
 .noticias {
     height: 100%;
+    
 }
 
+
 .tweets1 {
-    height: 300px;
-    border-bottom: solid 1px #CCC;
+    height: 100%;
+    padding: 0% 0% 2% 3%;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.tweets1 img{
+    margin-top: 20%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.nomesN{
+    display: inline-flex;    
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.nomesN h3 a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    display: inline;
+    
+}
+
+.nomesN h3 a:hover{
+    border-bottom: 1px solid  black;
+}
+
+.nomesN h4{
+    margin-top: 3.8%;
+    margin-left: 4%;
+    font-size: 12px;
+    color: rgba(155, 154, 154, 0.933);
+    
+    
 }
 
 .tweets1:hover {
@@ -289,7 +326,7 @@ body {
 }
 
 .tweets2 {
-    height: 300px;
+    height: 100%;
     border-bottom: solid 1px #CCC;
 }
 
@@ -298,7 +335,7 @@ body {
 }
 
 .tweets3 {
-    height: 300px;
+    height: 100%;
     border-bottom: solid 1px #CCC;
 }
 
@@ -307,7 +344,7 @@ body {
 }
 
 .tweets4 {
-    height: 300px;
+    height: 100%;
     border-bottom: solid 1px #CCC;
 }
 
@@ -316,7 +353,7 @@ body {
 }
 
 .tweets5 {
-    height: 300px;
+    height: 100%;
     border-bottom: solid 1px #CCC;
 }
 
@@ -324,6 +361,82 @@ body {
     background-color: rgba(242, 225, 255, 0.627);
 }
 
-.name {}
 
-.nick {}
+.quemseguir {
+    background-color: rgba(242, 225, 255, 0.627);
+    margin: 4% 11% 10% 5%;
+    border-radius: 12px;
+    height: 23.2%;
+    width: 84%;
+}
+.seguir1 {
+    padding: 4%;
+    border-bottom: solid 1px #CCC;
+
+}
+
+.seguir1:hover {
+    background-color: rgba(223, 189, 247, 0.627);
+}
+.seguir1 img{
+    width: 40px; 
+    height:40px;
+    border-radius: 50%;
+    margin-left: 2%;
+    display: inline;
+    margin-right: 5%;
+
+}
+.seguir1 a{
+    text-decoration: none;
+    color:black;
+}
+
+.nomes{
+    display:inline-block;
+    
+}
+
+.nomes h3{
+    font-size: 16px;
+    display: inline;
+}
+.nomes h4{
+    font-size: 12px;
+    color: rgba(155, 154, 154, 0.933);
+    
+}
+
+.bseguir {
+    font-weight: bolder;
+    padding: 1% 5%;
+    font-size: 15px;
+    background-color: rgba(242, 225, 255, 0.627);
+    border-color: #7E14A0;
+    color: #7E14A0;
+    border-radius: 25px;
+    float: right;
+    outline: 0;     
+    
+}
+
+.bseguir:hover {
+    background-color: rgba(223, 189, 247, 0.627);
+}
+.assuntos4 {
+    padding: 4%;
+    font-size: 11px;
+    display: flex;
+    
+}
+
+.assuntos4:hover {
+    background-color: rgba(223, 189, 247, 0.627);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.assuntos4 a{
+    text-decoration: none;
+    color: #7E14A0;
+}
