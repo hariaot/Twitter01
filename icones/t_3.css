@@ -1,0 +1,223 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+body{
+	background-color: white;
+}
+
+.container{
+	display: grid;
+    grid-template-columns: 23% 45% 32%;
+    width: 100%;
+}
+
+.cabecalho{
+	border-right: 1px solid slategrey;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.menu{
+	width: 100%;
+	height: 100%;
+}
+
+.menu .m-fixo{
+	border-right: 1px solid slategrey;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	width: 22.8%;
+}
+
+.menu ul{
+	list-style: none;
+	margin-top: 0;
+}
+
+.menu ul .m-icon{
+	margin-left: 15%;
+}
+
+.menu ul li a .m-icon {
+	margin-left: 10%;
+	margin-right: 7%;
+	display: inline;
+}
+
+.menu ul li{
+	font-size: 18px;
+	margin: 10%;
+}
+
+.menu ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu ul li a .m-text{
+	margin-top: 5%;
+}
+
+.menu ul li a:hover {
+	padding: 4% 10% 4% 0%;
+	color: white;
+	border-radius: 25px; 
+	background-color: #C685FF;
+}
+.menu button{
+	margin-left: 15%;
+	padding: 5% 25%;
+	background-color: darkorchid;
+	border: 0 solid darkorchid;
+	font-size: 18px;
+	color: white;
+	border-radius: 25px; 
+	outline: 0;
+}
+
+.menu button:hover{
+	background-color: #7E14A0;
+}
+
+
+.conteudo{
+	border-right: 1px solid slategrey;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.conteudo .c-fixo{
+	border-bottom: 1px solid slategrey;
+	background-color: white;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	width: 44.8%;
+}
+
+.conteudo .barra {
+	display: flex;
+	padding: 3% 0% 3% 3%;
+	width: 100%;
+	box-sizing:  border-box;
+}
+
+.conteudo .statuy{
+	margin-top: 13%;
+	width: 100%;
+	border-bottom: 10px solid slategrey;
+}
+
+.in-tweet{
+	margin: 0 3% 5% 3%;
+}
+
+.in-tweet input {
+	border: 0 solid white;
+	font-size: 18px;
+	width: 80%;
+	margin-left: 2%;
+	outline: 0;
+}
+
+.emo-tweet{
+	width: 49%;
+	display: inline-block;
+	padding: 0 3% 1.5% 15%;
+	box-sizing:  border-box;
+}
+
+.emo-tweet a{
+	margin-right: 2%;
+	text-decoration: none;
+}
+
+.emo-tweet .bu-tweet{
+	width: 100%;
+	padding: 0 3% 0 15%;
+	border-bottom: 5px solid slategrey;
+}
+
+.bu-tweet{
+	width: 47%;
+	margin-right: 3%;
+	display: inline-block;
+}
+
+.bu-tweet a{
+	margin-left: 60%;
+	text-decoration: none;
+}
+
+.bu-tweet button{
+	font-weight: bolder;
+	padding: 3.5% 3.5%;
+	background-color: darkorchid;
+	border: 0 solid darkorchid;
+	font-size: 17px;
+	color: white;
+	border-radius: 25px;
+	float: right;
+	outline: 0;
+}
+
+.bu-tweet button:hover{
+	background-color: #7E14A0;
+}
+
+.maisProcurados{
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.maisProcurados .pes-fixo{
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	width: 32.8%;
+	background-color: white;
+}
+
+.pes-fixo .pesquisa{
+	margin: 2% 4% 3% 5%;
+}
+
+.pes-fixo .pesquisa button{
+	display: inline;
+	padding: 2% 2% 2% 0%;
+	background-color: white;
+	border: 2px solid darkorchid;
+	border-radius: 25px;
+	width: 90%;
+	box-sizing:  border-box;
+}
+
+.pes-fixo .pesquisa input{
+	width: 80%;
+	margin-left: 5%;
+	border: 0 solid gray;
+	font-size: 14px;
+	outline: 0;
+}
+
+.maisProcurados .populares{
+	background-color:#E0E0E0;
+	margin: 15% 11% 3% 5%;
+	border-radius: 25px;
+}
+.populares h2{
+	padding: 4%;
+	font-size: 18px;
+	display: inline;
+}
+
+.populares a{
+	padding: 4%;
+	margin-left: 25%;
+}
