@@ -17,6 +17,7 @@ body {
 }
 
 .cabecalho {
+    border-right: 1px solid rgba(230, 209, 248, 0.842);
     grid-column-start: 1;
     grid-column-end: 2;
 }
@@ -24,8 +25,6 @@ body {
 .menu {
     width: 100%;
     height: 100%;
-    
-
 }
 
 .menu .m-fixo {
@@ -34,8 +33,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    width: 22.97%;
-    height: 100%;
+    width: 22.8%;
 }
 
 .menu ul {
@@ -92,8 +90,7 @@ body {
 }
 
 .conteudo {
-    c
-    height: 100%;
+    border-right: 1px solid rgba(230, 209, 248, 0.842);
     grid-column-start: 2;
     grid-column-end: 3;
 }
@@ -177,11 +174,71 @@ body {
     background-color: #7E14A0;
 }
 
+.noticias {
+
+}
+
+.tweets1 {
+    height: 100%;
+    padding: 2% 3%;
+    border-bottom: solid 1px #CCC;
+}
+.tweets1:hover {
+    background-color: rgba(242, 225, 255, 0.627);
+}
+
+.nomesN{
+    display: flex;
+    flex-direction: row; 
+}
+
+.nomesN  img{
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+.nomesN h3{
+	font-size: 16px;
+	margin-top: 2.5%;
+    margin-left: 2%;
+}
+
+.nomesN h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.nomesN h3 a:hover{
+    border-bottom: 1px solid  black;
+}
+
+.nomesN h4{
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 12px;
+    color: rgba(155, 154, 154, 0.933); 
+}
+
+.n-tweet{
+	padding: 0% 0% 3% 10%;
+}
+
+.n-tweet img{
+	border-radius: 10px;
+	margin-top: 5%;
+	width: 100%;
+}
+
+.n-icones a{
+    text-decoration: none;
+    padding: 0 10% 1.5% 10%;
+    box-sizing: border-box;
+}
+
 .maisProcurados {
     grid-column-start: 3;
     grid-column-end: 4;
-    border-left: 1px solid rgba(230, 209, 248, 0.842);
-    
 }
 
 .maisProcurados .pes-fixo {
@@ -218,14 +275,7 @@ body {
     background-color: rgba(242, 225, 255, 0.627);
     margin: 15% 11% 0% 5%;
     border-radius: 12px;
-    height: 17.8%;
-}
-
-.maisProcurados .populares1 {
-    background-color: rgba(242, 225, 255, 0.627);
-    margin: 4% 11% 10% 5%;
-    border-radius: 12px;
-    height: 21.2%;
+    height: 13%;
 }
 
 .assuntos {
@@ -275,122 +325,23 @@ body {
 }
 
 
-
-.noticias {
-    height: 100%;
-    
-    
-    
-}
-
-
-.tweets1 {
-    height: 100%;
-    padding: 0% 0% 2% 3%;
-    display:flex;
-    flex-direction : row;
-    border-bottom: solid 1px rgba(230, 209, 248, 0.842);
-    border-right: solid 1px rgba(230, 209, 248, 0.842);
-   
-    
-}
-
-.tweets1 img{
-    margin-top: 20%;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
-
-
-.nomesN{
-    display: inline-flex;    
-    margin-top: 2%;
-    margin-left: 2%;
-}
-
-.nomesN h3 a{
-    font-size: 16px;
-    text-decoration: none;
-    color: black;
-    display: inline;
-    
-}
-
-.nomesN h3 a:hover{
-    border-bottom: 1px solid  black;
-}
-
-.nomesN h4{
-    margin-top: 3.8%;
-    margin-left: 4%;
-    font-size: 12px;
-    color: rgba(155, 154, 154, 0.933);
-    
-    
-}
-
-.tweets1:hover {
-    background-color: rgba(242, 225, 255, 0.627);
-}
-
-.tweets2 {
-    height: 100%;
-    border-bottom: solid 1px rgba(230, 209, 248, 0.842);
-    border-right: solid 1px rgba(230, 209, 248, 0.842);
-}
-
-.tweets2:hover {
-    background-color: rgba(242, 225, 255, 0.627);
-}
-
-.tweets3 {
-    height: 100%;
-    border-bottom: solid 1px rgba(230, 209, 248, 0.842);
-    border-right: solid 1px rgba(230, 209, 248, 0.842);
-}
-
-.tweets3:hover {
-    background-color: rgba(242, 225, 255, 0.627);
-}
-
-.tweets4 {
-    height: 100%;
-    border-bottom: solid 1px rgba(230, 209, 248, 0.842);
-    border-right: solid 1px rgba(230, 209, 248, 0.842);
-}
-
-.tweets4:hover {
-    background-color: rgba(242, 225, 255, 0.627);
-}
-
-.tweets5 {
-    height: 100%;
-    border-bottom: solid 1px rgba(230, 209, 248, 0.842);
-    border-right: solid 1px rgba(230, 209, 248, 0.842);
-}
-
-.tweets5:hover {
-    background-color: rgba(242, 225, 255, 0.627);
-}
-
-
 .quemseguir {
     background-color: rgba(242, 225, 255, 0.627);
-    margin: 4% 11% 4% 5%;
+    margin: 4% 11% 10% 5%;
     border-radius: 12px;
-    height: 23.2%;
+    height: 16.9%;
     width: 84%;
 }
 .seguir1 {
     padding: 4%;
-    border-bottom: solid 1px rgba(230, 209, 248, 0.842);
+    border-bottom: solid 1px #CCC;
 
 }
 
 .seguir1:hover {
     background-color: rgba(223, 189, 247, 0.627);
 }
+
 .seguir1 img{
     width: 40px; 
     height:40px;
@@ -407,7 +358,6 @@ body {
 
 .nomes{
     display:inline-block;
-    
 }
 
 .nomes h3{
