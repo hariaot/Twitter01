@@ -174,9 +174,7 @@ body {
     background-color: #7E14A0;
 }
 
-.noticias {
 
-}
 
 .tweets1 {
     height: 100%;
@@ -235,7 +233,7 @@ body {
     border-bottom: 1px solid rgba(155, 154, 154, 0.933); 
 }
 .nomesN h6{
-    margin-top: 2.2%;
+    margin-top: 2.5%;
     margin-left: 1%;
     font-size: 12px;
     color: rgba(155, 154, 154, 0.933); 
