@@ -209,6 +209,7 @@ body {
     color: black;
 }
 
+
 .nomesN h3 a:hover{
     border-bottom: 1px solid  black;
 }
@@ -220,13 +221,35 @@ body {
     color: rgba(155, 154, 154, 0.933); 
 }
 
+.nomesN h5 {
+    margin-top: 3%;
+    margin-left: 1%;
+    font-size: 12px;
+}
+.nomesN h5 a{
+    text-decoration: none;
+    color: rgba(155, 154, 154, 0.933); 
+
+}
+.nomesN h5 a:hover{
+    border-bottom: 1px solid rgba(155, 154, 154, 0.933); 
+}
+.nomesN h6{
+    margin-top: 2.2%;
+    margin-left: 1%;
+    font-size: 12px;
+    color: rgba(155, 154, 154, 0.933); 
+
+}
+
 .n-tweet{
-	padding: 0% 0% 3% 10%;
+    padding: 0% 0% 3% 10%;
+    
 }
 
 .n-tweet img{
 	border-radius: 10px;
-	margin-top: 5%;
+    margin-top: 5%; 
 	width: 100%;
 }
 
@@ -275,7 +298,7 @@ body {
     background-color: rgba(242, 225, 255, 0.627);
     margin: 15% 11% 0% 5%;
     border-radius: 12px;
-    height: 13%;
+    height: 12.3%;
 }
 
 .assuntos {
@@ -329,7 +352,7 @@ body {
     background-color: rgba(242, 225, 255, 0.627);
     margin: 4% 11% 10% 5%;
     border-radius: 12px;
-    height: 16.9%;
+    height: 16%;
     width: 84%;
 }
 .seguir1 {
